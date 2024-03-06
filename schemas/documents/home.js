@@ -15,7 +15,7 @@ export default {
           type: 'mainHero',
         },
         {
-          type: 'bestMoments',
+          type: 'slider',
         },
       ],
     },

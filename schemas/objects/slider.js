@@ -1,6 +1,6 @@
 export default {
-  name: 'bestMoments',
-  title: 'Best Moments',
+  name: 'slider',
+  title: 'Slider',
   type: 'object',
   fields: [
     {
@@ -10,8 +10,8 @@ export default {
       of: [{type: 'block'}],
     },
     {
-      name: 'moments',
-      title: 'moments',
+      name: 'images',
+      title: 'Images',
       type: 'array',
       of: [{type: 'image'}],
     },

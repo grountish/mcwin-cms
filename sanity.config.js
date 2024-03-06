@@ -7,7 +7,7 @@ import {myStructure} from './deskStructure'
 
 export default defineConfig({
   name: 'default',
-  title: 'decipher-cms',
+  title: 'McWin CMS',
 
   projectId: '9nxeopkt',
   dataset: 'production',
