@@ -9,6 +9,9 @@ import imageAndInfoSection from './objects/imageAndInfoSection'
 import imageInfoCTACollection from './objects/imageInfoCTACollection'
 import imageInfoCTASection from './objects/imageInfoCTASection'
 import link from './objects/link'
+import agenda from './objects/agenda'
+import slot from './objects/slot'
+import event from './objects/event'
 
 export const schemaTypes = [
   home,
@@ -22,4 +25,7 @@ export const schemaTypes = [
   imageInfoCTACollection,
   imageInfoCTASection,
   link,
+  agenda,
+  slot,
+  event,
 ]

@@ -44,6 +44,9 @@ export default {
         {
           type: 'imageInfoCTASection',
         },
+        {
+          type: 'agenda',
+        },
       ],
     },
   ],
