@@ -78,11 +78,6 @@ export default {
       of: [{type: 'block'}],
     },
     {
-      name: 'image',
-      title: 'Image',
-      type: 'image',
-    },
-    {
       name: 'mapEmbedURL',
       title: 'Map Embed URL',
       type: 'string',
