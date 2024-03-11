@@ -27,13 +27,13 @@ export default {
       type: 'image',
     },
     {
-      name: 'CTATitle',
-      title: 'CTA Title',
+      name: 'buttonTitle',
+      title: 'Button Title',
       type: 'string',
     },
     {
-      name: 'CTAURL',
-      title: 'CTA URL',
+      name: 'buttonUrl',
+      title: 'Button URL',
       type: 'string',
     },
   ],
