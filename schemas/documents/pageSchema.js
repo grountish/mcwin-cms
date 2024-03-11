@@ -44,6 +44,9 @@ export default {
         {
           type: 'titleSubtitleCTA',
         },
+        {
+          type: 'agenda',
+        },
       ],
     },
   ],

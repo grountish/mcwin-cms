@@ -24,12 +24,14 @@ export default {
     {
       name: 'date',
       title: 'Date',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'block'}],
     },
     {
       name: 'location',
       title: 'Location',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'block'}],
     },
     {
       name: 'buttonText',
