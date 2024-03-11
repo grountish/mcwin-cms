@@ -4,6 +4,11 @@ export default {
   type: 'object',
   fields: [
     {
+      name: 'backgroundImage',
+      title: 'Background Image',
+      type: 'image',
+    },
+    {
       name: 'topSecondaryTitle',
       title: 'Top Secondary Title',
       type: 'array',
@@ -22,6 +27,11 @@ export default {
       of: [{type: 'block'}],
     },
     {
+      name: 'dataOneIcon',
+      title: 'Primary Icon',
+      type: 'image',
+    },
+    {
       name: 'dataOne',
       title: 'Primary Data',
       type: 'array',
@@ -34,6 +44,11 @@ export default {
       of: [{type: 'block'}],
     },
     {
+      name: 'dataTwoIcon',
+      title: 'Secondary Icon',
+      type: 'image',
+    },
+    {
       name: 'dataTwo',
       title: 'Secondary Data',
       type: 'array',
@@ -44,6 +59,11 @@ export default {
       title: 'Secondary Data URL',
       type: 'array',
       of: [{type: 'block'}],
+    },
+    {
+      name: 'dataThreeIcon',
+      title: 'Tertiary Icon',
+      type: 'image',
     },
     {
       name: 'dataThree',
@@ -70,11 +90,6 @@ export default {
     {
       name: 'buttonTitle',
       title: 'Button Title',
-      type: 'string',
-    },
-    {
-      name: 'buttonUrl',
-      title: 'Button URL',
       type: 'string',
     },
   ],

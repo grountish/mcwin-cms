@@ -47,6 +47,9 @@ export default {
         {
           type: 'agenda',
         },
+        {
+          type: 'titleDataMapCTA',
+        },
       ],
     },
   ],
