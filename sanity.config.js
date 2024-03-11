@@ -4,6 +4,7 @@ import {visionTool} from '@sanity/vision'
 import {schemaTypes} from './schemas'
 import {colorInput} from '@sanity/color-input'
 import {myStructure} from './deskStructure'
+import {vercelDeployTool} from 'sanity-plugin-vercel-deploy'
 
 export default defineConfig({
   name: 'default',
@@ -18,6 +19,7 @@ export default defineConfig({
     }),
     visionTool(),
     colorInput(),
+    vercelDeployTool(),
   ],
 
   schema: {
