@@ -57,7 +57,7 @@ export default {
       name: 'founders',
       title: 'founders',
       type: 'array',
-      of: [{type: 'image'}],
+      of: [{type: 'founder'}],
     },
   ],
 }

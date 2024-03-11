@@ -12,12 +12,14 @@ import link from './objects/link'
 import agenda from './objects/agenda'
 import slot from './objects/slot'
 import event from './objects/event'
+import founder from './objects/founder'
 
 export const schemaTypes = [
   home,
   layout,
   pageSchema,
   mainHero,
+  founder,
   slider,
   titleSubtitleCTA,
   imageAndInfoCollection,
