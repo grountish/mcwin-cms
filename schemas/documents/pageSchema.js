@@ -30,9 +30,6 @@ export default {
           type: 'slider',
         },
         {
-          type: 'titleSubtitleCTA',
-        },
-        {
           type: 'imageAndInfoCollection',
         },
         {
@@ -43,6 +40,9 @@ export default {
         },
         {
           type: 'imageInfoCTASection',
+        },
+        {
+          type: 'titleSubtitleCTA',
         },
       ],
     },
