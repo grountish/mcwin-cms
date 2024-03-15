@@ -59,5 +59,11 @@ export default {
       type: 'array',
       of: [{type: 'founder'}],
     },
+    {
+      name: 'bottomText',
+      title: 'Bottom Text',
+      type: 'array',
+      of: [{type: 'block'}],
+    },
   ],
 }
