@@ -36,5 +36,10 @@ export default {
       type: 'array',
       of: [{type: 'imageAndInfoSection'}],
     },
+    {
+      name: 'moreSpeakersText',
+      title: 'More Speakers Text',
+      type: 'string',
+    },
   ],
 }
