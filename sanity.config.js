@@ -22,6 +22,14 @@ export default defineConfig({
     vercelDeployTool(),
   ],
 
+  document: {
+    productionUrl: async (_, context) => {
+      const {document} = context
+
+      return `https://mcwin-lilac.vercel.app/api/preview?secret=supersecret&slug=${document?.slug?.current ?? ''}`
+    },
+  },
+
   schema: {
     types: schemaTypes,
   },
