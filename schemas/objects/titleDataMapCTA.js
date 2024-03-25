@@ -40,8 +40,7 @@ export default {
     {
       name: 'dataOneURL',
       title: 'Primary Data URL',
-      type: 'array',
-      of: [{type: 'block'}],
+      type: 'string',
     },
     {
       name: 'dataTwoIcon',
@@ -57,8 +56,7 @@ export default {
     {
       name: 'dataTwoURL',
       title: 'Secondary Data URL',
-      type: 'array',
-      of: [{type: 'block'}],
+      type: 'string',
     },
     {
       name: 'dataThreeIcon',
@@ -74,8 +72,7 @@ export default {
     {
       name: 'dataThreeURL',
       title: 'Tertiary Data URL',
-      type: 'array',
-      of: [{type: 'block'}],
+      type: 'string',
     },
     {
       name: 'mapEmbedURL',
