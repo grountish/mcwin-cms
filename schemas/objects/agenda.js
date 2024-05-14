@@ -4,11 +4,6 @@ export default {
   type: 'object',
   fields: [
     {
-      title: 'background',
-      name: 'background',
-      type: 'image',
-    },
-    {
       title: 'slots',
       name: 'slots',
       type: 'array',
