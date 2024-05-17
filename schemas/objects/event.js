@@ -16,7 +16,8 @@ export default {
     {
       title: 'Speaker',
       name: 'speaker',
-      type: 'string',
+      type: 'array',
+      of: [{type: 'block'}],
     },
   ],
 }
