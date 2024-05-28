@@ -14,6 +14,7 @@ import agenda from './objects/agenda'
 import slot from './objects/slot'
 import event from './objects/event'
 import founder from './objects/founder'
+import streamSchedule from './objects/streamSchedule'
 
 export const schemaTypes = [
   home,
@@ -32,4 +33,5 @@ export const schemaTypes = [
   agenda,
   slot,
   event,
+  streamSchedule,
 ]

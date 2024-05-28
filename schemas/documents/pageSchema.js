@@ -24,6 +24,9 @@ export default {
       type: 'array',
       of: [
         {
+          type: 'streamSchedule',
+        },
+        {
           type: 'mainHero',
         },
         {
